@@ -1,6 +1,6 @@
 import User from "../models/user.model.js";
 import { errorHandler } from "../utilis/error.js";
-
+import bcryptjs from 'bcryptjs';
 export const test =  (req , res) => {
     res.json({
         "msg" : "Hello world"
