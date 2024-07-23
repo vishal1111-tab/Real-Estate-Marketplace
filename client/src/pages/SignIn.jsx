@@ -10,12 +10,14 @@ function SignIn() {
   // const [loading, setLoading] = useState(false);
   const {loading , error} = useSelector((state)=> state.user);
   const navigate = useNavigate();
+  
   const dispatch = useDispatch();
+
   const handlechange = (e) => {
     setFormData({
       ...formData,
       [e.target.id]: e.target.value,
-    });
+    });  
   };
 
   const handleSubmit = async (e) => {
