@@ -27,6 +27,7 @@ function SignUp() {
 
         body: JSON.stringify(formData),
       });
+      
       const data = await res.json();
       if (data.success == false) {
         setError(data.message);
