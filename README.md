@@ -3,8 +3,19 @@
 ## Overview
 
 The Real Estate Marketplace is a comprehensive online platform designed to connect buyers, sellers, renters, and real estate professionals. Built using the MERN stack (MongoDB, Express.js, React, Node.js) along with Firebase, this platform offers a modern, scalable, and user-friendly experience for managing real estate transactions.
+![home (1)](https://github.com/user-attachments/assets/308d956c-1245-4fa7-9d03-45acc182b50a)
 
-![Real Estate Marketplace Screenshot](./image/home(1).png)
+
+![home (2)](https://github.com/user-attachments/assets/9fe8bf37-c57f-42d9-a9df-979e6fa714c7)
+
+
+![home (3)](https://github.com/user-attachments/assets/c08b3a0a-2cc6-4160-9c66-16a6360cffe0)
+
+![home (4)](https://github.com/user-attachments/assets/64355b28-1fb8-4a02-b697-417721f76bfe)
+
+
+![home (5)](https://github.com/user-attachments/assets/657fe272-9859-4c4c-b51e-f116fb0652e6)
+
 
 ## Key Features
 
