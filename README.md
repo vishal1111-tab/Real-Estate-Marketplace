@@ -8,7 +8,7 @@ The Real Estate Marketplace is a comprehensive online platform designed to conne
 
 ## Key Features
 
-- **Property Listings**: Browse a wide range of properties with detailed information including images, descriptions, pricing, and location. Advanced search and filtering options available.
+- **Property Listings**: Browse a wide range of properties with detailed information including images, descriptions, pricing, and location. Advanced search and filtering options are available.
 - **User Authentication**: Secure sign-up, login, and profile management using Firebase Authentication.
 - **Dynamic Data Management**: Real-time updates and data storage using Firebase Firestore.
 - **Interactive Map Integration**: View property locations on interactive maps with markers for nearby amenities.
