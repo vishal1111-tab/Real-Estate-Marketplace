@@ -5,3 +5,73 @@
 body{
     background-color: rgb(241 , 245,241);
 }
+
+.bgImage{
+    background-image: url("./assets/building.jpg");
+    background-size: cover;
+}
+
+.butt{
+    background-color: rgba(255, 0, 0, 0.896);
+    border-radius: 12px;
+    
+}
+.butt:hover{
+    background-color: rgba(237, 0, 0, 0.856);
+}
+
+.header{
+    background-color: #a9a1a0;
+}
+
+.container{
+    justify-content: space-between;
+    
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.left{
+    width: 450px;
+    margin-left: 50px;
+    
+}
+h1{
+    font-weight: 800;
+    font-size: xx-large;
+    margin-bottom: 30px;
+   
+}
+
+.container img {
+   
+    width: 450px;
+    height:330px
+  
+  }
+.container p{
+    text-align: justify;
+}
+
+.content{
+    background-color: white;
+    
+    
+}
+
+.botom p{
+    text-align: justify;
+    margin-top: 40px;
+}
+.botom {
+   
+    display: flex;
+    gap: 200px;
+    padding-left: 200px;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.botom .left{
+    width: 50%;
+}
