@@ -75,3 +75,15 @@ h1{
 .botom .left{
     width: 50%;
 }
+.botom .right{
+    width: 50%;
+}
+
+
+
+@media (max-width: 1232px) {
+    .botom {
+      display: none;
+    }
+    
+}

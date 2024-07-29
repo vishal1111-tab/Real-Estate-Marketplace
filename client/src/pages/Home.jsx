@@ -48,24 +48,26 @@ export default function Home() {
   return (
     <div>
       {/* top */}
-      <div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
-        <h1 className="text-slate-700 font-bold text-3xl lg:text-6xl">
-          Find your next <span className="text-slate-500">perfect</span>
-          <br />
-          place with ease
-        </h1>
-        <div className="text-gray-400 text-xs sm:text-sm">
-          Square Yards is the best place to find your next perfect place to
-          live.
-          <br />
-          We have a wide range of properties for you to choose from.
+      <div className="bgImage ">
+        <div className=" flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
+          <h1 className="text-white font-bold text-5xl lg:text-6xl">
+            Find Your Next <span className="text-white">Perfect</span>
+            <br />
+            Place With Ease
+          </h1>
+          <div className="text-white text-sm sm:text-sm">
+            Square Yards is the best place to find your next perfect place to
+            live.
+            <br />
+            We have a wide range of properties for you to choose from.
+          </div>
+          <Link
+            to={"/search"}
+            className="text-xs sm:text-sm text-white font-bold  "
+          >
+            <button className="butt  text-lg p-3 ">Get Started..</button>
+          </Link>
         </div>
-        <Link
-          to={"/search"}
-          className="text-xs sm:text-sm text-blue-800 font-bold hover:underline"
-        >
-          Let's get started...
-        </Link>
       </div>
 
       {/* swiper */}
@@ -88,9 +90,9 @@ export default function Home() {
 
       {/* listing results for offer, sale and rent */}
 
-      <div className="max-w-6xl mx-auto p-3 flex flex-col gap-8 my-10">
+      <div className=" max-w-6xl mx-auto p-3 flex flex-col gap-8 my-10">
         {offerListings && offerListings.length > 0 && (
-          <div className="">
+          <div className="bg-gray-950">
             <div className="my-3">
               <h2 className="text-2xl font-semibold text-slate-600">
                 Recent offers
@@ -112,14 +114,16 @@ export default function Home() {
         {rentListings && rentListings.length > 0 && (
           <div className="">
             <div className="my-3">
-              <h2 className="text-2xl font-semibold text-slate-600">
-                Recent places for rent
+              <h2 className="text-3xl font-semibold text-slate-600">
+                Recent Places For Rent
               </h2>
               <Link
-                className="text-sm text-blue-800 hover:underline"
+                className="text-sm text-white hover:underline"
                 to={"/search?type=rent"}
               >
-                Show more places for rent
+                <button className="butt  text-base p-1 mt-6 mb-6 ">
+                  Show more
+                </button>
               </Link>
             </div>
             <div className="flex flex-wrap gap-4">
@@ -133,13 +137,15 @@ export default function Home() {
           <div className="">
             <div className="my-3">
               <h2 className="text-2xl font-semibold text-slate-600">
-                Recent places for sale
+                Recent Places For Sale
               </h2>
               <Link
-                className="text-sm text-blue-800 hover:underline"
+                className="text-sm  text-white hover:underline"
                 to={"/search?type=sale"}
               >
-                Show more places for sale
+                <button className="butt  text-base p-1  mt-6 mb-6">
+                  Show more
+                </button>
               </Link>
             </div>
             <div className="flex flex-wrap gap-4">
@@ -149,6 +155,47 @@ export default function Home() {
             </div>
           </div>
         )}
+      </div>
+
+      <div className=" botom mt-40">
+        <div className="left">
+          <p className="text-2xl">About Square Yards</p>
+          <p>
+            Square Yards is a leading real estate agency that specializes in
+            helping clients buy, sell, and rent properties in the most desirable
+            neighborhoods. Our team of experienced agents is dedicated to
+            providing exceptional service and making the buying and selling
+            process as smooth as possible. Our mission is to help our clients
+            achieve their real estate goals by providing expert advice,
+            personalized service, and a deep understanding of the local market.
+            Whether you are looking to buy, sell, or rent a property, we are
+            here to help you every step of the way.
+          </p>
+          <p>
+            Our team of agents has a wealth of experience and knowledge in the
+            real estate industry, and we are committed to providing the highest
+            level of service to our clients. We believe that buying or selling a
+            property should be an exciting and rewarding experience, and we are
+            dedicated to making that a reality for each and every one of our
+            clients.
+          </p>
+        </div>
+        <div className="right">
+          <p className="text-lg">Properties in india</p>
+          <p>
+            Property in New Delhi | Property in Chennai | Property in Pune |{" "}
+            <br />
+            Property in Lonavala | Property in Gurgaon | <br /> Property in
+            Banglore{" "}
+          </p>
+          <p className="text-lg"> New Projects in india</p>
+          <p>
+            Property in New Delhi | Property in Chennai | Property in Pune |{" "}
+            <br />
+            Property in Lonavala | Property in Gurgaon | <br /> Property in
+            Banglore{" "}
+          </p>
+        </div>
       </div>
     </div>
   );
